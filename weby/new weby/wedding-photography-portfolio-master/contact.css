@@ -1,0 +1,121 @@
+body{
+    background-color:#EEEEEE;
+    color:black;
+    font-family : adobe-garamond-pro;
+    height:100%;
+    margin:0px;
+  }
+  #content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding : 2em;
+  }
+  .header{
+    text-align: center;
+    height:12em;
+  }
+ 
+  .header h1{
+    font-size:35px;
+    font-weight:normal;
+  }
+  #navigation ul{
+    list--style-type:none;
+  }
+  #navigation{
+    margin-left : -45px;
+  }
+  #navigation li{
+    display:inline;
+    padding:20px;
+    font-size:17px;
+  }
+  .header p{
+    font-size:50px;
+    margin-top:250px;
+  }
+  h1 a{
+  color:black;
+  text-decoration:none;
+  }
+  li a{
+  color:black;
+  text-decoration:none;
+  }
+  
+  
+  
+  #focus {
+  width:2px;
+  height : 5px; 
+  background-color: rgba(0,0,0,0.1);
+  }
+  
+  .header hr {
+  width: 14em;
+  align : center;
+  }
+  
+  #footer{
+    background-color:#EEEEEE;
+    text-align:center;
+  
+    padding-bottom:1em;
+    
+  }
+  #footer #workwm{
+    padding-top:1em;
+    font-size:50px;
+    font-weight:normal;
+  }
+  #footer h3{
+    padding:0.2em;
+    font-size:25px;
+    font-weight:normal;
+  }
+  #footer p{
+    padding:1em;
+    font-size:0.9em;
+  }
+  #footer hr{
+    width:3em;
+  }
+  #footer a{
+    color:black;
+    text-decoration:none;
+  }
+  
+  #lhs{
+    width : 50%;
+    padding: 3em;
+  }
+  #lhs hr{
+    width:2em;
+    float: left;
+  }
+  #lhs a{
+    color:black;
+  }
+  #rhs {
+    width : 50%;
+    padding: 2em;
+  }
+  form{
+    font-size: 20px;
+    
+  }
+  #rhs label{
+    font-size: 20px;
+  }
+  
+  #rhs button{
+    font-size: 18px;
+    width: 6em;
+    height: 3.5em;
+    background-color: black;
+    color: white;
+  }
+  #rhs button:hover{
+    background-color: rgba(0,0,0,0.8);
+  }
